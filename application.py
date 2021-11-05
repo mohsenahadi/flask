@@ -3,6 +3,7 @@ from flask import jsonify
 import numpy as np
 
 application = Flask(__name__)
+app = application
 
 @application.route('/')
 def hello():
